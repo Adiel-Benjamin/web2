@@ -1,0 +1,399 @@
+body {
+	direction: rtl;
+	background-image:url(../imiges/leaves.png);
+	font-family:Calibri;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #F2DABD;
+}
+
+header {
+    background-color: #F2F2F2;
+    width:960px;
+    height:40px;
+    padding-top:30px;
+    
+   
+    }
+
+
+/*תפריט ניווט*/
+
+#MainNav {
+    background-color: #F2F2F2;
+    margin-right:45px;
+}
+
+#MainNav ul li {
+    display: inline-block;
+    font-size: 18pt;
+}
+
+/*סימון דף פעיל*/
+.curentpage {
+	background-color: #F2DABD;
+	color: #734022;
+	border-radius: 30px;
+}
+
+#MainNav ul li a {
+	font-family: 'BN Zarbobim';
+	display: block;
+	background-color: #F2F2F2;
+	color: #1BBFAF;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	Padding-top: 10px;
+	/*אנימציה*/
+	-webkit-border-radius: 30px 30px 0 0;
+	border-radius: 30px 30px 0 0;
+}
+
+		#MainNav ul li a:hover {
+			color: #734022;
+			text-decoration: underline;
+		}
+
+		#MainNav ul li a:active {
+			background-color: #F2DABD;
+			text-decoration: underline;
+			/*אנימציה*/
+			-webkit-border-radius: 30px 30px 0 0;
+			border-radius: 30px 30px 0 0;
+		}
+
+/*הגדרות כלליות*/
+h1 {
+	font-family: 'BN Zarbobim';
+	letter-spacing:3px;
+	color: #1BBFAF;
+	font-size: 30pt;
+	font-weight: bold;
+	margin-top: 30pt;
+	text-align: center;
+}
+h2 {
+	font-family: 'BN Zarbobim';
+	letter-spacing: 3px;
+	color: #734022;
+	margin: 18px 0;
+	font-size: 18pt;
+}
+h3 {
+	font-family: 'BN Zarbobim';
+	letter-spacing: 3px;
+	color: #734022;
+	margin: 15px 0;
+	font-size: 15pt;
+}
+
+section {
+    margin-right: 45px;
+	margin-top:45px;
+}
+figure{
+    margin:45px 100px;
+}
+
+/*ניווט תחתון*/
+footer {
+    background-color: #F2F2F2;
+	margin:0 auto;
+	padding:25px;
+}
+
+footer nav ul li {
+	display:inline;
+	margin:30px 20px;
+	}
+
+	footer nav ul li a {
+		Color: #1BBFAF;
+		text-align: center;
+		text-decoration:none;
+	}
+	
+footer p {
+	margin: 15px;
+}
+
+/*עמוד בית*/
+#profile {
+	margin-right:45px;
+	margin-top:45px;
+	height: 220px;
+	width:180px;
+	border-radius:8px;
+	display: inline-block;
+	background: url('../imiges/DSC_0147 (2).JPG') no-repeat center;
+	background-size: 180px 220px;
+	}
+
+#intro {
+	display: inline-block;
+	width: 600px;
+	margin-right:30px;
+	}
+
+/*נספח עמוד בית*/
+#ex_protret {
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	background: url(../imiges/protret_adielbenjamin.jpg) no-repeat right;
+	background-size: 250px 200px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#ex_poster {
+	display: inline-block;
+	width: 175px;
+	height: 200px;
+	background: url(../imiges/protret_adielbenjamin.jpg) no-repeat right;
+	background-size: 250px 200px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#ex_poster:hover {
+		width: 200px;
+		height: 225px;
+		background-size: 275px 225px;
+	}
+
+#ex_finelP {
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	background: url('../imiges/mai and adiel final project.jpg') no-repeat right;
+	background-size: 250px 200px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#ex_protret:hover,#ex_finelP:hover {
+	width: 275px;
+	height: 225px;
+	background-size: 275px 225px;
+}
+
+/*דפי תוכן */
+/*רקע על היצירה*/
+#about {
+	margin:30px auto;
+}
+
+	#about p {
+		margin-top: 20px;
+		text-align: center;
+		font-size: 15px;
+	}
+
+/*פרטים יבשים*/
+#item_id {
+	margin-right: 0 auto;
+	text-align:center;
+	position:relative inherit;
+}
+
+/* דף 1 תמונה של היצירה*/
+#protret {
+	margin: 0 auto;
+	width: 420px;
+	height: 270px;
+	display:block;
+	border-radius: 15px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#protret:hover {
+		-webkit-border-radius: 45px;
+		border-radius: 45px;
+		width: 445px;
+		height: 295px;
+	}
+/*נספח דף 1 */
+#object_D, #object_S {
+	display: inline-block;
+	height: 250px;
+	width: 200px;
+	margin-left: 10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#object_D:hover, #object_S:hover {
+		height: 275px;
+		width: 225px;
+		background-size:275px 225px;
+	}
+
+
+/*דף 2*/
+/* דף 2 תמונה של היצירה*/
+#poster{
+	margin: 0 auto;
+	width: 400px;
+	height: 500px;
+	display: block;
+	border-radius: 15px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#poster:hover {
+		-webkit-border-radius: 45px;
+		border-radius: 45px;
+		width: 450px;
+		height:550px;
+	}
+
+
+
+/*נספח דף 2*/
+#poster2 {
+	display: inline-block;
+	height: 300px;
+	width: 200px;
+	margin-left: 10px;
+	background:url('../imiges/Myposter adielbenjamin 2.png') no-repeat center;
+	background-size: 300px 200px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#poster3 {
+	display: inline-block;
+	height: 300px;
+	width: 200px;
+	margin-left: 10px;
+	background:url(../imiges/Myposter_adielbenjamin_3.png) no-repeat center;
+	background-size: 300px 200px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#poster2:hover, #poster3:hover {
+		height: 325px;
+		width: 250px;
+		background-size: 275px 225px;
+	}
+
+
+/*דף 3*/
+/*תמונה של היצירה*/
+#Fproject {
+	margin: 0 auto;
+	width: 420px;
+	height: 270px;
+	display: block;
+	border-radius: 15px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#Fproject:hover {
+		-webkit-border-radius: 45px;
+		border-radius: 45px;
+		width: 445px;
+		height: 295px;
+	}
+
+	/*השראה ליצירה*/
+#insperation {
+	margin:20px auto;
+	text-align:center;
+	width:800px;
+}
+
+	#last_meal {
+		margin: 10px auto;
+		width: 280px;
+		height: 200px;
+		display: block;
+		border-radius: 15px;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+	#last_meal:hover {
+		-webkit-border-radius: 45px;
+		border-radius: 45px;
+		width: 295px;
+		height: 225px;
+	}
+
+iframe {
+	border: 5px solid #1BBFAF;
+	margin-top:10px;
+	margin-right:45px;
+}
+
+#Roap {
+	margin: 0 auto;
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+	#Roap:hover {
+		width: 275px;
+		height: 225px;
+	}
+
+#Sky {
+	margin: 0 auto;
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+	#Sky:hover {
+		width: 275px;
+		height: 225px;
+	}
